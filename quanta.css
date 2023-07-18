@@ -1,0 +1,306 @@
+body{
+    margin: 0;
+}
+@font-face {
+    font-family: mygilllight;
+    src: url(fonts/Gill\ Sans\ Light.otf);
+}
+@font-face {
+    font-family: mygill;
+    src: url(fonts/Gill\ Sans.otf);
+}
+.main{
+    width: 1210px;
+    height: 2407px;
+    margin-right: 0;
+}
+ .mainheader{
+    width: 100%;
+    height: 500px;
+    background-image: url(Quanta-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; 
+ }
+
+.header{
+    width: 100%;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.85);
+}
+.logoquanta{
+    position: relative;
+    left: 55px;
+    top: 8px;
+}
+.tmenu{
+    width: 35px;
+    height: 2px;
+    background-color: #cf2e2e;
+    margin: 6px 0;
+}
+.maintmenu{
+    position: relative;
+    left: 1116px;
+    bottom: 38px;
+    width: 30px;
+}
+
+.quanta{
+    font-size: 60px;
+    width: 800px;
+    left: 68px;
+    position: relative;
+    top: 270px;
+    color: #fff;
+    line-height: 60px;
+    font-family: mygill;
+    font-weight: 100;
+}
+.quantap{
+    position: relative;
+    top: 243px;
+    width: 800px;
+    color: #fff;
+    left: 71px;
+    font-family: mygill;
+    font-size: 16px;
+}
+.homepage{
+    height: 1799px;
+    background-color: aqua;
+
+}
+.logoimg{
+    height: 320px;
+}
+.logoimgg{
+    position: relative;
+    left: 460px;
+    top: 20px;
+}
+.ele1{
+    width: 100%;
+    height: 150px;
+  text-align: center;
+}
+.elep1{
+    width: 1000px;
+    font-size: 24px;
+    color: #000;
+    position: relative;
+    left: 93px;
+    font-family: mygilllight;
+}
+
+.num1logo{
+    height: 270px;
+}
+.num1logoimg{
+    position: relative;
+    left: 477px;
+}
+.productportfolio{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+.productportfolioh2{
+    font-size: 40px;
+    font-family: mygill;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 100;
+  
+}
+.ele2{
+    width: 100%;
+    height: 148px;
+    position: relative;
+    text-align: center;
+    top: 60px;
+}
+.elep2{
+    width: 1000px;
+    font-size: 24px;
+    color: #000;
+    position: relative;
+    left: 93px;
+    font-family: mygilllight;
+}
+.lastsec{
+    width: 100%;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+.bgsec{
+    width: 100%;
+    height: 131px;
+    position: relative;
+  top: 59px;
+  left: 0;
+  opacity: 0.7;
+    background-image: url(backgroundboximg.jpg);
+}
+.picsec{
+    width: 500px;
+    height: 500px;
+    z-index: 9;
+    bottom: 60px;
+    position: relative;
+    box-shadow: 0px 2px 12px 1px black;
+}
+.chocolate{
+    width: 100%;
+    height: 95%;
+}
+.chocp{
+    color: #000;
+    font-size: 24px;
+    text-align: left ;
+    font-family: mygilllight;
+    position: relative;
+    left: 27px;
+    bottom: 70px;
+}
+.gap1{
+    width: 100%;
+    height: 20px;
+}
+.button{
+    width: 100%;
+    height: 47px;
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
+   
+}
+
+.button1{
+    width: 208px;
+    height: 41px;
+    color: #e1251b;
+    font-size: 15px ;
+    text-transform: uppercase;
+    cursor: pointer;
+    fill: #fff;
+    font-family: mygill;
+}
+.button1:hover{
+    background: #e1251b;
+    color: #fff ;
+    border: none;
+}
+.gap2{
+    width: 100%;
+    height: 90px;
+}
+.footer{
+    width: 100%;
+    height: 101px;
+    background-color: #cf2e2e;
+    position: relative;
+    top: 208px;
+}
+.fbb{
+    position: relative;
+    left: 1px;
+    top: 3px;
+    padding: 12px;
+    font-size: 30px;
+    background : transparent;
+  color: white;
+    width:12px;
+    text-align: center;
+    text-decoration: none;
+    height: 12px;
+    border-radius: 50%;
+}
+.instaa{
+    position: relative;
+    left: -12px;
+    top: 3px;
+    padding: 12px;
+    font-size: 30px;
+    background: transparent;
+  color: white;
+    width:12px;
+    text-align: center;
+    text-decoration: none;
+    height: 12px;
+    border-radius: 50%;
+}
+.lii{
+    position: relative;
+    left: -18px;
+    top: 3px;
+    padding: 12px;
+    font-size: 30px;
+    background: transparent;
+  color: white;
+    width:12px;
+    text-align: center;
+    text-decoration: none;
+    height: 12px;
+    border-radius: 50%;
+}
+.twitterr{
+    position: relative;
+    left: -26px;
+    top: 3px;
+    padding: 12px;
+    font-size: 30px;
+    background: transparent;
+  color: white;
+    width:12px;
+    text-align: center;
+    text-decoration: none;
+    height: 12px;
+    border-radius: 50%;
+}
+.ytt{
+    position: relative;
+    left: -33px;
+    top: 3px;
+    padding: 12px;
+    font-size: 30px;
+    background: transparent;
+  color: white;
+    width:12px;
+    text-align: center;
+    text-decoration: none;
+    height: 12px;
+    border-radius: 50%;
+}
+.icons{
+    width: 400px;
+    height: 45px;
+    left: 48px;
+    top: 32px;
+    position: relative;
+}
+.footerp1{
+    width: 250px;
+    height: 40px;
+    bottom: 29px;
+    position: relative;
+    left: 896px;
+}
+.footerp1p{
+    font-size: 16px;
+    font-family: mygill;
+    color: #fff;
+    position: relative;
+    left: 64px;
+}
+.rights{
+    position: relative;
+    top: -13px;
+    font-size: 14px;
+    left: 43px;
+    font-family: mygill;
+    color: #fff;
+}
